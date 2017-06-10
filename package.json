@@ -1,0 +1,25 @@
+{
+  "name": "circus-log",
+  "version": "0.0.0-development",
+  "description": "Lightweight logger with a simple pass-through configuration for Node.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifreddyrondon/circus-log.git"
+  },
+  "keywords": [
+    "logger",
+    "lightweight",
+    "nodejs"
+  ],
+  "author": "Freddy Rondon <ifreddyrondon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifreddyrondon/circus-log/issues"
+  },
+  "homepage": "https://github.com/ifreddyrondon/circus-log#readme",
+  "engine": ">=6.7.0"
+}
