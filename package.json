@@ -21,5 +21,10 @@
     "url": "https://github.com/ifreddyrondon/circus-log/issues"
   },
   "homepage": "https://github.com/ifreddyrondon/circus-log#readme",
-  "engine": ">=6.7.0"
+  "engine": ">=6.7.0",
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-import": "2.3.0"
+  }
 }
