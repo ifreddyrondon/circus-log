@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
+    "coverage": "istanbul cover -x *.test.js _mocha -- --recursive spec test/",
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "test": "mocha --recursive test/ -w",
     "test:single": "mocha --recursive test/ -w"
   },
@@ -31,6 +33,7 @@
     "eslint": "3.19.0",
     "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.3.0",
+    "istanbul": "0.4.5",
     "mocha": "3.4.2",
     "test-console": "1.0.0"
   },
