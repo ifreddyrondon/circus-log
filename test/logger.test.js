@@ -2,7 +2,7 @@
  * Module dependencies
  */
 const { expect } = require('chai');
-const { describe, it } = require('mocha');
+const { before, describe, it } = require('mocha');
 const winston = require('winston');
 const Logger = require('./../lib');
 const { stdout, stderr } = require('test-console');
@@ -11,6 +11,10 @@ const { stdout, stderr } = require('test-console');
  * Tests
  */
 describe('Logger', () => {
+  before(() => {
+    process.env.NODE_ENV = 'development';
+  });
+
   it('Should have an winston client', () => {
     const instance = new Logger();
     expect(instance).to.be.instanceOf(winston.Logger);
