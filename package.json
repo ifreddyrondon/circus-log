@@ -9,11 +9,12 @@
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "mocha --recursive test/ -w",
-    "test:single": "mocha --recursive test/ -w"
+    "test:single": "mocha --recursive test/ -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifreddyrondon/circus-log.git"
+    "url": "https://github.com/ifreddyrondon/circus-log.git"
   },
   "keywords": [
     "logger",
@@ -41,6 +42,7 @@
     "mocha": "3.4.2",
     "moment": "2.18.1",
     "rimraf": "2.6.1",
+    "semantic-release": "^7.0.2",
     "test-console": "1.0.0"
   },
   "config": {
