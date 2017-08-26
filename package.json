@@ -1,6 +1,6 @@
 {
   "name": "circus-log",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Lightweight logger with a simple pass-through configuration for Node.js applications",
   "main": "index.js",
   "scripts": {
