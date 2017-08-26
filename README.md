@@ -53,3 +53,14 @@ log.error(err, { foo: 'faa' });
 
 - `message`: String | Error - A message or error to be logged.
 - `tags`: Object - An optional object of tags for Kibana.
+
+
+## Transport
+
+Support for multiple transports. The Console Transport will be activated by default.
+
+### Console Transport
+Instance of winston.transports.Console [Options](https://github.com/winstonjs/winston/blob/master/docs/transports.md#console-transport)
+
+### Daily rotate file
+Disable by default, you must provide the `loggerFolderPath` option to activate. [Options](https://github.com/winstonjs/winston/blob/master/docs/transports.md#console-transport)
