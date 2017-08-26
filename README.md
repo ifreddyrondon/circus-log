@@ -1,6 +1,12 @@
 # circus-log
 Lightweight logger with a simple pass-through configuration for use with winston logging library for Node.js applications
 
+[![travis build](https://img.shields.io/travis/ifreddyrondon/circus-log.svg?style=flat-square)](https://travis-ci.org/ifreddyrondon/circus-log)
+[![codecov coverage](https://img.shields.io/codecov/c/github/ifreddyrondon/circus-log.svg?style=flat-square)](https://codecov.io/gh/ifreddyrondon/circus-log)
+[![version](https://img.shields.io/npm/v/circus-log.svg?style=flat-square)](https://www.npmjs.com/package/circus-log)
+[![downloads](https://img.shields.io/npm/dm/circus-log.svg?style=flat-square)](https://npm-stat.com/charts.html?package=circus-log&from=2017-05-27)
+[![MIT License](https://img.shields.io/npm/l/circus-log.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
 ## Installation
 
 ```
